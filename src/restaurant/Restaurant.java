@@ -2,12 +2,9 @@ package restaurant;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Locale;
 
 import people.*;
-import main.Food;
-import main.Menu;
 
 public class Restaurant {
 	private String name;

@@ -2,7 +2,7 @@ package people;
 
 import java.util.HashMap;
 
-import main.Food;
+import restaurant.Food;
 
 public class Chef {
 	private String name;
