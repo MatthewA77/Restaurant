@@ -5,10 +5,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Locale;
 
-import main.Chef;
+import people.*;
 import main.Food;
 import main.Menu;
-import main.Visitor;
 
 public class Restaurant {
 	private String name;
@@ -88,7 +87,7 @@ public class Restaurant {
 			System.err.println("No food with name " + foodName);
 			return;
 		}
-		chef.addCookedFood(target);
+		chef.addCookedFood(target, qty);
 		int totalPrice = target.getPrice() * qty;
 		visitor.addExpense(totalPrice);
 		this.income += totalPrice;
